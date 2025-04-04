@@ -1,0 +1,24 @@
+# @license BSD-3 https://opensource.org/licenses/BSD-3-Clause
+# Copyright (c) 2024, Institute of Automatic Control - RWTH Aachen University
+# Maximilian Nitsch (m.nitsch@irt.rwth-aachen.de)
+# All rights reserved.
+
+depth_pressure_sensor_simulator:
+  general_settings:
+    sample_time: 0.5 # (s)
+    seed: 42
+    use_constant_seed: false
+
+  model_parameter_settings:
+    accuracy: 0.05 # Full scale accuracy of the pressure sensor (%)
+    resolution: 0.005 # Full scale resolution of the pressure sensor (%)
+    range: 300000.0 # Measurement range of the pressure sensor (Pa)
+    static_bias: 101325.0 # Static bias of the pressure sensor (Pa)
+    pressure_per_metre: 10110.8212387044 # Conversion factor from pressure to depth (Pa/mH2O)
+    lever_arm_body_to_sensor: [0.0, 0.0, 0.0] # Lever arm between body and sensor frame (m)
+
+  model_enable_settings:
+    enable_white_noise: true
+    enable_static_bias: false
+    enable_quantization: true
+    enable_saturation: true
