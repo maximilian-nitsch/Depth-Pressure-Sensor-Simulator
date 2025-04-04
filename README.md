@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-BSD--3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-<img src="./data/icon.png" alt="Icon" width="10%">
+<img src="./data/icon.png" alt="Icon" width="20%">
 
 <!--- protected region package header begins -->
 **Author:**
@@ -13,7 +13,7 @@
 <!--- protected region package header ends -->
 
 ## Description
-This project provides a high-fidelity depth pressure sensor simulator written in C++.
+This project provides a high-fidelity depth pressure sensor (DEPTH) simulator written in C++.
 
 The simulator implements the following features:
 - Depth-pressure measurement simulation
