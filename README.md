@@ -1,6 +1,11 @@
 # IRT C++/ROS 2 Depth Pressure Sensor Simulator
-
-[![License](https://img.shields.io/badge/license-BSD--3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+![Build](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Simulator/actions/workflows/ci.yaml/badge.svg)<!-- -->
+![License](https://img.shields.io/github/license/maximilian-nitsch/Depth-Pressure-Sensor-Simulator.svg)<!-- -->
+[![Last Commit](https://img.shields.io/github/last-commit/maximilian-nitsch/Depth-Pressure-Sensor-Simulator)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Simulator/commits/main)<!-- -->
+[![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue)](https://index.ros.org/doc/ros2/Installation/Humble/)<!-- -->
+[![Release](https://img.shields.io/github/v/release/maximilian-nitsch/Depth-Pressure-Sensor-Simulator)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Simulator/releases)<!-- -->
+[![Open Issues](https://img.shields.io/github/issues/maximilian-nitsch/Depth-Pressure-Sensor-Simulator)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Simulator/issues)<!-- -->
+[![Contributors](https://img.shields.io/github/contributors/maximilian-nitsch/Depth-Pressure-Sensor-Simulator)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Simulator/graphs/contributors)
 
 <img src="./data/icon.svg" alt="Icon" width="20%">
 
